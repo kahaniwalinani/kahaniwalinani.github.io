@@ -98,6 +98,16 @@ h6 {
   width: 100%;
 }
 
+.newsitem {
+  font-size: 1.4rem;
+  margin-bottom: 1.5rem;
+  text-align: left;
+}
+
+a .newsitem {
+  text-decoration: underline;
+}
+
 .masthead {
   min-height: 30rem;
   position: relative;
