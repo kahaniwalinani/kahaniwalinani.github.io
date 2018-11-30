@@ -360,7 +360,7 @@
       var jqxhr = $.ajax({
         url: url,
         method: "GET",
-        dataType: "jsonp",
+        dataType: "json",
         data: $form.serializeObject(),
         success: function (result) { alert("Form submitted"); }
       })
